@@ -24,30 +24,33 @@ const GreenDevelopment = () => {
             <BrokenLines />
           </div>
           <div className="lg:flex lg:items-center">
-            <div className="w-full space-y-12 lg:w-1/3 ">
-              <div className="md:flex md:items-start md:-mx-4">
-                <div className="mt-4 md:mx-4 md:mt-0">
-                  <p className="mt-3 text-gray-500 text-lg">
-                    At XYZ Ltd., we believe in the transformative power of
-                    education and community empowerment. Our focus is on
-                    supporting and uplifting the most vulnerable groups,
-                    particularly women in rural areas, who are often the
-                    backbone of agricultural communities but lack the necessary
-                    resources and opportunities. We provide training in
-                    sustainable farming techniques, business development, and
-                    financial literacy, ensuring that the community can thrive
-                    independently.
-                  </p>
-                </div>
-              </div>
-            </div>
-
             <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
               <img
                 className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
                 src="/plant.jpg"
                 alt=""
               />
+            </div>
+
+            <div className="w-full space-y-12 lg:w-1/2 ">
+              <div className="md:flex md:items-start md:-mx-4">
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <p className="mt-3 font-semibold text-gray-500 text-lg">
+                    At XYZ Ltd., we believe in the transformative power of
+                    education and community empowerment. Our focus is on
+                    supporting and uplifting the most vulnerable groups,
+                    particularly women in rural areas, who are often the
+                    backbone of agricultural communities but lack the necessary
+                    resources and opportunities.
+                  </p>
+                  <p className="mt-3 font-semibold text-gray-500 text-lg">
+                   We provide training in
+                    sustainable farming techniques, business development, and
+                    financial literacy, ensuring that the community can thrive
+                    independently.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
