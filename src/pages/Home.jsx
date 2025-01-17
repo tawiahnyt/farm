@@ -4,9 +4,9 @@ import Hero from "../components/Hero";
 import FeatureProductCards from "../components/FeatureProductCards";
 import BrokenLines from "../components/BrokenLines";
 import Button from "../components/Button";
-import Footer from "../components/Footer";
 import OurValues from "../components/OurValues";
 import { featureProducts } from "../constants";
+
 
 const Home = () => {
   return (
@@ -50,7 +50,6 @@ const Home = () => {
         />
       </section>
 
-      <Footer />
     </>
   );
 };

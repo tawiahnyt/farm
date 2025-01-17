@@ -1,6 +1,5 @@
 /** @format */
 
-import Footer from "../components/Footer";
 import Hero2 from "../components/Hero2";
 
 const ContactUs = () => {
@@ -221,7 +220,6 @@ const ContactUs = () => {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 };

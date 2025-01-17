@@ -3,7 +3,6 @@
 import Hero2 from "../components/Hero2";
 import BrokenLines from "../components/BrokenLines";
 import OurValues from "../components/OurValues";
-import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -108,7 +107,6 @@ const About = () => {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 };

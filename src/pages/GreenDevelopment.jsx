@@ -1,11 +1,9 @@
 /** @format */
 
 import BrokenLines from "../components/BrokenLines";
-import Footer from "../components/Footer";
 import GreenDevelopmentFeatures from "../components/GreenDevelopmentFeatures";
 import Hero2 from "../components/Hero2";
 import HorizontalLine from "../components/HorizontalLine";
-import WriteUp from "../components/WriteUp";
 import { ourGoals } from "../constants";
 
 const GreenDevelopment = () => {
@@ -86,7 +84,6 @@ const GreenDevelopment = () => {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 };

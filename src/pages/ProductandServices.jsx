@@ -3,7 +3,6 @@
 import { IoIosArrowDown } from "react-icons/io";
 import BrokenLines from "../components/BrokenLines";
 import FeatureProductCards from "../components/FeatureProductCards";
-import Footer from "../components/Footer";
 import Hero2 from "../components/Hero2";
 import HorizontalLine from "../components/HorizontalLine";
 import { featureProducts, productsItem } from "../constants";
@@ -173,8 +172,6 @@ const ProductandServices = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 };
