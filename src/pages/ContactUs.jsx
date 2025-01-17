@@ -6,7 +6,7 @@ import Hero2 from "../components/Hero2";
 const ContactUs = () => {
   return (
     <>
-      <Hero2 img={'/public/contact-us.jpg'} />
+      <Hero2 text={''} img={'/public/contact-us.jpg'} />
 
       <section className="min-h-screen bg-white mt-10">
         <div className="container px-6 py-10 mx-auto">
