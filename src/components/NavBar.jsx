@@ -22,7 +22,7 @@ const NavBar = () => {
             <a
               href="/"
               title=""
-              className="flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+              className="flex outline-none "
             >
               <img
                 className="w-auto h-8"
@@ -49,7 +49,7 @@ const NavBar = () => {
               <Link
                 key={link.title}
                 to={link.url}
-                class="text-base text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-2 focus:ring-gray-900 focus:ring-offset-8 font-bold uppercase"
+                class="text-base text-gray-900 transition-all duration-200 font-pj hover:text-opacity-50 font-semibold uppercase"
               >
                 {" "}
                 {link.title}{" "}
