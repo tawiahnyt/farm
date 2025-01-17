@@ -6,9 +6,15 @@ import Hero2 from "../components/Hero2";
 import HorizontalLine from "../components/HorizontalLine";
 import { ourGoals } from "../constants";
 
+import { motion } from "framer-motion";
+
 const GreenDevelopment = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Hero2 text={"Green Development"} img={"/green-development.jpeg"} />
 
       {/* Community Focus */}
@@ -42,10 +48,9 @@ const GreenDevelopment = () => {
                     resources and opportunities.
                   </p>
                   <p className="mt-3 font-semibold text-gray-500 text-lg">
-                   We provide training in
-                    sustainable farming techniques, business development, and
-                    financial literacy, ensuring that the community can thrive
-                    independently.
+                    We provide training in sustainable farming techniques,
+                    business development, and financial literacy, ensuring that
+                    the community can thrive independently.
                   </p>
                 </div>
               </div>
@@ -83,8 +88,7 @@ const GreenDevelopment = () => {
           </div>
         </div>
       </section>
-
-    </>
+    </motion.div>
   );
 };
 

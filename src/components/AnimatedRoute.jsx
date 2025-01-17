@@ -1,19 +1,19 @@
 /** @format */
 
 import {
-  BrowserRouter as
   Routes,
   Route,
   useLocation,
 
 } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import ProductandServices from "./pages/ProductandServices";
-import ContactUs from "./pages/ContactUs";
-import GreenDevelopment from "./pages/GreenDevelopment";
+
 
 import {AnimatePresence} from 'framer-motion'
+import Home from "../pages/Home";
+import About from "../pages/About";
+import ProductandServices from "../pages/ProductandServices";
+import ContactUs from "../pages/ContactUs";
+import GreenDevelopment from "../pages/GreenDevelopment";
 
 const AnimatedRoute = () => {
     const location = useLocation()

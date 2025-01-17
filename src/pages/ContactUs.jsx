@@ -2,13 +2,19 @@
 
 import Hero2 from "../components/Hero2";
 
+import { motion } from "framer-motion";
+
 const ContactUs = () => {
   return (
-    <>
-      <Hero2 text={''} img={'/public/contact-us.jpg'} />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <Hero2 text={""} img={"/public/contact-us.jpg"} />
 
       <section className="min-h-screen bg-white mt-10">
-        <div className="container px-6 py-10 mx-auto">
+        <div className="container px-6 mx-auto">
           <div className="lg:flex lg:items-center lg:-mx-10">
             <div className="lg:w-1/2 lg:mx-10">
               <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">
@@ -219,8 +225,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
-
-    </>
+    </motion.div>
   );
 };
 

@@ -7,10 +7,15 @@ import Button from "../components/Button";
 import OurValues from "../components/OurValues";
 import { featureProducts } from "../constants";
 
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Hero href={"#values"} />
 
       <OurValues />
@@ -49,8 +54,7 @@ const Home = () => {
           href={"/products-and-services"}
         />
       </section>
-
-    </>
+    </motion.div>
   );
 };
 

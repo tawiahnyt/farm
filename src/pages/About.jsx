@@ -4,10 +4,16 @@ import Hero2 from "../components/Hero2";
 import BrokenLines from "../components/BrokenLines";
 import OurValues from "../components/OurValues";
 
+import { motion } from "framer-motion";
+
 const About = () => {
   return (
-    <>
-      <Hero2 text={'About Us'} img={'/about.jpg'} />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <Hero2 text={"About Us"} img={"/about.jpg"} />
 
       {/* About Us */}
       <section className="bg-white mt-6 lg:mt-14">
@@ -106,8 +112,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
-    </>
+    </motion.div>
   );
 };
 

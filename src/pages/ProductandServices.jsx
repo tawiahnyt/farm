@@ -9,11 +9,17 @@ import { featureProducts, productsItem } from "../constants";
 // import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
+import {motion} from 'framer-motion'
+
 
 const ProductandServices = () => {
   return (
-    <>
-      <Hero2 text={'Product and Services'} img={'/product-and-services.jpg'} />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <Hero2 text={"Product and Services"} img={"/product-and-services.jpg"} />
 
       <section className="bg-white py-12 sm:py-16 lg:py-20 container mx-auto">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
@@ -172,7 +178,7 @@ const ProductandServices = () => {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   );
 };
 
