@@ -15,7 +15,7 @@ const GreenDevelopment = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
-      <Hero2 text={"Green Development"} img={"/green-development.jpeg"} />
+      <Hero2 text={"Green Development"} img={"/green-development.webp"} />
 
       {/* Community Focus */}
       <section className="bg-white mt-6 lg:mt-14">
@@ -31,7 +31,7 @@ const GreenDevelopment = () => {
             <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
               <img
                 className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
-                src="/plant.jpg"
+                src="/plant.webp"
                 alt=""
               />
             </div>

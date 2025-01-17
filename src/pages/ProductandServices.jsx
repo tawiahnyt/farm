@@ -19,7 +19,7 @@ const ProductandServices = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
-      <Hero2 text={"Product and Services"} img={"/product-and-services.jpg"} />
+      <Hero2 text={"Product and Services"} img={"/product-and-services.webp"} />
 
       <section className="bg-white py-12 sm:py-16 lg:py-20 container mx-auto">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">

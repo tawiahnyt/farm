@@ -13,7 +13,7 @@ const About = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
-      <Hero2 text={"About Us"} img={"/about.jpg"} />
+      <Hero2 text={"About Us"} img={"/about.webp"} />
 
       {/* About Us */}
       <section className="bg-white mt-6 lg:mt-14">

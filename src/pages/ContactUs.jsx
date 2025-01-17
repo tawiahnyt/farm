@@ -11,7 +11,7 @@ const ContactUs = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
-      <Hero2 text={""} img={"./contact-us.jpg"} />
+      <Hero2 text={""} img={"./contact-us.webp"} />
 
       <section className="min-h-screen bg-white mt-10">
         <div className="container px-6 mx-auto">
