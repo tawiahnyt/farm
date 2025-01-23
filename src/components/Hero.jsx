@@ -10,11 +10,11 @@ const Hero = ({ href }) => {
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
             <h1 className="mt-2 text-4xl font-bold font-serif text-black lg:my-20 sm:text-6xl xl:text-8xl">
-              XYZ FOODS LIMITED
+              NEXT STOP WEST AFRICA
             </h1>
             <p className="mt-8 text-base text-gray-600 lg:mt-2 sm:text-xl">
-              XYZ Food Ltd. Is an international company operating in West and
-              Central Africa focusing on improving quality of life and
+              Next Stop West Africa Is an international company operating in
+              West and Central Africa focusing on improving quality of life and
               well-being through improvement in agriculture.
             </p>
 
@@ -23,8 +23,10 @@ const Hero = ({ href }) => {
               title=""
               onClick={() => {
                 window.scrollTo({
-                  top: 900, left: 0, behavior: 'smooth'
-                })
+                  top: 900,
+                  left: 0,
+                  behavior: "smooth",
+                });
               }}
               className="inline-flex items-center px-8 py-4 mt-5 font-semibold transition-all duration-200 bg-darkGreen rounded-full lg:mt-8 hover:bg-normalGreen focus:bg-normalGreen text-white"
               // role="button"

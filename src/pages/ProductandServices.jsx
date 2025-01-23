@@ -48,9 +48,9 @@ const ProductandServices = () => {
           <div className="md:flex md:text-center md:-mx-4 text-center items-center justify-center">
             <div className="mt-4 md:mx-4 md:mt-0">
               <p className="mt-3 md:text-lg text-gray-500">
-                XYZ Ltd. is focused on achieving sustainable growth while
-                meeting the needs of our stakeholders. Our company revolves
-                around producing high-quality agricultural products,
+                Next Stop West Africa is focused on achieving sustainable growth
+                while meeting the needs of our stakeholders. Our company
+                revolves around producing high-quality agricultural products,
                 contributing to community development, and promoting sustainable
                 environmental practices. We pride ourselves on our ability to
                 provide both local and international markets with superior
@@ -141,13 +141,13 @@ const ProductandServices = () => {
           <div className="md:flex md:text-center md:-mx-4 text-center items-center justify-center">
             <div className="mt-4 md:mx-4 md:mt-0">
               <p className="mt-3 md:text-lg text-gray-500">
-                At XYZ Food Ltd, we pride ourselves on being your premier source
-                of top-quality spices and vegetables. Our products are
-                meticulously produced and crafted to bring the authentic state
-                of African cuisine to your kitchen. Elevate your meals with the
-                vibrant and unique flavors that only XYZ Food can offer.
-                Experience the difference that quality makes. Your culinary
-                journey to Africa begins here!!!
+                At Next Stop West Africa, we pride ourselves on being your
+                premier source of top-quality spices and vegetables. Our
+                products are meticulously produced and crafted to bring the
+                authentic state of African cuisine to your kitchen. Elevate your
+                meals with the vibrant and unique flavors that only Next Stop
+                West Africa can offer. Experience the difference that quality
+                makes. Your culinary journey to Africa begins here!!!
               </p>
             </div>
           </div>
@@ -157,11 +157,11 @@ const ProductandServices = () => {
           <div className="md:flex md:text-center md:-mx-4 text-center items-center justify-center">
             <div className="mt-4 md:mx-4 md:mt-0">
               <p className="mt-3 md:text-lg text-gray-500">
-                XYZ limited exports processed products within African countries,
-                Europe and Americas, such as Plantain fufu, plantain chips from
-                Plantains, Cassava flour, Attieke fresh and dehydrated, Gari,
-                Placali from Cassava Passion fruit juice, passion fruit
-                concentrate from Passion fruit
+                Next Stop West Africa exports processed products within African
+                countries, Europe and Americas, such as Plantain fufu, plantain
+                chips from Plantains, Cassava flour, Attieke fresh and
+                dehydrated, Gari, Placali from Cassava Passion fruit juice,
+                passion fruit concentrate from Passion fruit
               </p>
             </div>
           </div>
@@ -171,7 +171,8 @@ const ProductandServices = () => {
           <div className="md:flex md:text-center md:-mx-4 text-center items-center justify-center">
             <div className="mt-4 md:mx-4 md:mt-0">
               <p className="mt-3 md:text-lg text-gray-500 font-semibold italic">
-                Taste the tradition, Trust the Quality Choose XYZ Food
+                Taste the tradition, Trust the Quality Choose Next Stop West
+                Africa
               </p>
             </div>
           </div>

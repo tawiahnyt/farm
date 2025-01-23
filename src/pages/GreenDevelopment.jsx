@@ -40,9 +40,9 @@ const GreenDevelopment = () => {
               <div className="md:flex md:items-start md:-mx-4">
                 <div className="mt-4 md:mx-4 md:mt-0">
                   <p className="mt-3 font-semibold text-gray-500 text-lg">
-                    At XYZ Ltd., we believe in the transformative power of
-                    education and community empowerment. Our focus is on
-                    supporting and uplifting the most vulnerable groups,
+                    At Next Stop West Africa, we believe in the transformative
+                    power of education and community empowerment. Our focus is
+                    on supporting and uplifting the most vulnerable groups,
                     particularly women in rural areas, who are often the
                     backbone of agricultural communities but lack the necessary
                     resources and opportunities.

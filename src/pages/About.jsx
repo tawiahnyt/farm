@@ -38,9 +38,9 @@ const About = () => {
               <div className="md:flex md:items-start md:-mx-4">
                 <div className="mt-4 md:mx-4 md:mt-0">
                   <p className="mt-3 text-gray-500 text-lg">
-                    XYZ Food Ltd. Is an international company operating in West
-                    and Central Africa focusing on improving quality of life and
-                    well-being through improvement in agriculture.
+                    Next Stop West Africa Is an international company operating
+                    in West and Central Africa focusing on improving quality of
+                    life and well-being through improvement in agriculture.
                   </p>
                   <p className="mt-6 text-gray-500 text-lg">
                     Provider of high-quality agricultural produce and spices, we
