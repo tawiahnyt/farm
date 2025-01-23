@@ -9,7 +9,7 @@ const Hero = ({ href }) => {
       <div className="px-4 mx-auto max-w-7xl mt-20 lg:mt-0 sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
-            <h1 className="mt-2 text-4xl font-bold font-serif text-black lg:my-20 sm:text-6xl xl:text-8xl">
+            <h1 className="mt-2 text-4xl font-bold font-serif text-black lg:mt-32 lg:mb-20 sm:text-5xl xl:text-7xl">
               NEXT STOP WEST AFRICA
             </h1>
             <p className="mt-8 text-base text-gray-600 lg:mt-2 sm:text-xl">
