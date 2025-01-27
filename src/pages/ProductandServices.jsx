@@ -91,7 +91,7 @@ const ProductandServices = () => {
             >
               <div className="flex space-x-2">
                 <IoIosArrowDown className="mt-2" />
-                <p className="md:text-lg text-gray-500 font-semibold hover:text-gray-800">
+                <p className="md:text-lg text-gray-500 font-semibold hover:text-gray-800 cursor-pointer">
                   {product.name}
                 </p>
               </div>
