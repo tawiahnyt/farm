@@ -10,14 +10,16 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <NavBar />
-      <Outlet />
+    <>
+      <Router>
+        <ScrollToTop />
+        <NavBar />
+        <Outlet />
         <AnimatedRoute />
-      <Footer />
+        <Footer />
+      </Router>
       <Analytics />
-    </Router>
+    </>
   );
 }
 
