@@ -29,7 +29,7 @@ export const productsItem = [
     name: "Red Cabbage",
     url: "#red-cabbage",
     id: "red-cabbage",
-    img: '../../src/assets/pictures/red-cabbage-4805347_1280.jpg',
+    img: '../assets/pictures/red-cabbage-4805347_1280.jpg',
     text: "A nutrient-packed vegetable rich in antioxidants and fiber, red cabbage has a slightly peppery taste. It’s great for salads, slaws, or even as a cooked dish.",
   },
   {
