@@ -44,12 +44,12 @@ const NavBar = () => {
             )}
           </button>
 
-          <div className="hidden cursor-pointer lg:absolute lg:inset-y-0 lg:flex lg:items-center lg:justify-center lg:space-x-12 lg:-translate-x-1/2 lg:left-1/2 gap-8">
+          <div className="hidden cursor-pointer lg:absolute lg:inset-y-0 lg:flex lg:items-center text-center lg:justify-center md:space-x-12 lg:-translate-x-1/2 lg:left-1/2 gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.title}
                 to={link.url}
-                class="text-base text-gray-900 transition-all duration-200 font-pj hover:text-opacity-50 font-semibold uppercase"
+                class="text-base text-gray-900 transition-all duration-200 md:text-sm lg:font-pj hover:text-opacity-50 font-semibold uppercase"
               >
                 {" "}
                 {link.title}{" "}
