@@ -16,28 +16,28 @@ import vegetableImg from "../../src/assets/vegetable-img.jpg";
 import herbImg from "../../src/assets/herbs-and-spice-img.jpg";
 import seedlingImg from "../../src/assets/seedlings-img.jpg";
 
-import redCabbageImg from "../assets/pictures/red-cabbage-4805347_1280.jpg";
-import cherryTomatoesImg from "../../src/assets/pictures/tomatoes-1280859_1280.jpg"
-import cayenneImg from "../../src/assets/pictures/cayenne-peppers-2779834_1280.jpg"
-import bellPepperImg from "../../src/assets/pictures/bell-peppers-2708680_1280.jpg"
-import okroImg from "../../src/assets/pictures/okra-1386365_1280.jpg"
+import redCabbageImg from "../assets/pictures/red-cabbage-4805347_1280.webp";
+import cherryTomatoesImg from "../../src/assets/pictures/tomatoes-1280859_1280.webp"
+import cayenneImg from "../../src/assets/pictures/cayenne-peppers-2779834_1280.webp"
+import bellPepperImg from "../../src/assets/pictures/bell-peppers-2708680_1280.webp"
+import okroImg from "../../src/assets/pictures/okra-1386365_1280.webp"
 import gardenEggsImg from "../../src/assets/pictures/Garden Eggs.png"
-import maizeImg from "../../src/assets/pictures/corn-8028831_1280.jpg"
+import maizeImg from "../../src/assets/pictures/corn-8028831_1280.webp"
 import anisSeedsImg from "../../src/assets/pictures/Anis Seeds.png"
-import blackPepperImg from "../../src/assets/pictures/black-pepper-83086_1280.jpg"
-import cinnamonImg from "../../src/assets/pictures/food-3902024_1280.jpg"
-import clovesImg from "../../src/assets/pictures/cloves-2485102_1280.jpg"
-import bayLeavesImg from "../../src/assets/pictures/bay-leaf-2942399_1280.jpg"
-import parsleyImg from "../../src/assets/pictures/parsley-393028_1280.jpg"
+import blackPepperImg from "../../src/assets/pictures/black-pepper-83086_1280.webp"
+import cinnamonImg from "../../src/assets/pictures/food-3902024_1280.webp"
+import clovesImg from "../../src/assets/pictures/cloves-2485102_1280.webp"
+import bayLeavesImg from "../../src/assets/pictures/bay-leaf-2942399_1280.webp"
+import parsleyImg from "../../src/assets/pictures/parsley-393028_1280.webp"
 import dryOnionImg from "../../src/assets/pictures/Dry onion.png"
-import garlicFlakesImg from "../../src/assets/pictures/garlic-3419544_1280.jpg"
+import garlicFlakesImg from "../../src/assets/pictures/garlic-3419544_1280.webp"
 import dryGingerImg from "../../src/assets/pictures/Dry ginger.png"
 import turmericImg from "../../src/assets/pictures/Turmeric.png"
-// import cayennePepperImg from "../../src/assets/pictures/cayenne-peppers-2779834_1280.jpg"
-import waterMelonImg from "../../src/assets/pictures/water-melon-1652093_1280.jpg"
+import cayennePepperImg from "../../src/assets/pictures/cayenne-peppers-2779834_1280.webp"
+import waterMelonImg from "../../src/assets/pictures/water-melon-1652093_1280.webp"
 import miracleBerryImg from "../../src/assets/pictures/Miracle berries.png"
-import plantainImg from "../../src/assets/pictures/plantain.jpg"
-import coconutImg from "../../src/assets/pictures/coconut-1036198_1280.jpg"
+import plantainImg from "../../src/assets/pictures/plantain.webp"
+import coconutImg from "../../src/assets/pictures/coconut-1036198_1280.webp"
 
 export const navLinks = [
   { title: "Home", url: "/" },
@@ -167,13 +167,13 @@ export const productsItem = [
     img: turmericImg,
     text: "A bright yellow root with earthy flavor, turmeric is commonly used in curries. It contains curcumin, known for its potent anti-inflammatory and antioxidant properties.",
   },
-  // {
-  //   name: "Cayenne pepper",
-  //   url: "#cayenne-pepper",
-  //   id: "cayenne-pepper",
-  //   img: cayennePepperImg,
-  //   text: "A hot, spicy powder made from dried cayenne peppers. It's used in small quantities to add a fiery kick to dishes and can also help with metabolism.",
-  // },
+  {
+    name: "Cayenne pepper",
+    url: "#cayenne-pepper",
+    id: "cayenne-pepper",
+    img: cayennePepperImg,
+    text: "A hot, spicy powder made from dried cayenne peppers. It's used in small quantities to add a fiery kick to dishes and can also help with metabolism.",
+  },
   {
     name: "Water melon",
     url: "#water-melon",
