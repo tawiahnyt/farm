@@ -2,16 +2,25 @@
 
 import { FiArrowRightCircle } from "react-icons/fi";
 import PropTypes from "prop-types";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Hero = ({ href }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   useEffect(() => {
     const preloadImg = new Image();
     preloadImg.src = "/hero-img.webp";
+    preloadImg.onload = () => setImageLoaded(true);
   }, []);
 
   return (
-    <section className="bg-[url('/hero-img.webp')] bg-opacity-30 py-48 sm:py-16 lg:py-24 lg:h-[95vh] h-[100vh] bg-cover bg-center">
+    <section
+      style={{
+        backgroundImage: imageLoaded ? "url('/hero-img.webp')" : "none",
+        transition: "background-image 0.5s ease-in-out", // Smooth transition when image loads
+      }}
+      className="bg-opacity-30 py-48 sm:py-16 lg:py-24 lg:h-[95vh] h-[100vh] bg-cover bg-center"
+    >
       <div className="px-4 mx-auto max-w-7xl mt-20 lg:mt-0 sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
