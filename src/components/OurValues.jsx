@@ -32,7 +32,7 @@ const OurValues = () => {
           <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
             <img
               className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
-              src="https://static.vecteezy.com/system/resources/previews/042/229/701/non_2x/ai-generated-assorted-colorful-vegetables-and-fruits-on-display-free-photo.jpeg"
+              src="/vegetables-and-fruits.webp"
               alt=""
             />
           </div>
