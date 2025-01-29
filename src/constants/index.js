@@ -11,10 +11,10 @@ import { IoShieldHalfSharp } from "react-icons/io5";
 import { PiPlantFill } from "react-icons/pi";
 import { FaPeopleRoof } from "react-icons/fa6";
 
-import fruitImg from "../../src/assets/fruit-img.jpg";
-import vegetableImg from "../../src/assets/vegetable-img.jpg";
-import herbImg from "../../src/assets/herbs-and-spice-img.jpg";
-import seedlingImg from "../../src/assets/seedlings-img.jpg";
+import fruitImg from "../../src/assets/fruit-img.webp";
+import vegetableImg from "../../src/assets/vegetable-img.webp";
+import herbImg from "../../src/assets/herbs-and-spice-img.webp";
+import seedlingImg from "../../src/assets/seedlings-img.webp";
 
 import redCabbageImg from "../assets/pictures/red-cabbage.webp";
 import cherryTomatoesImg from "../../src/assets/pictures/tomatoes.webp"
