@@ -2,8 +2,14 @@
 
 import { FiArrowRightCircle } from "react-icons/fi";
 import PropTypes from "prop-types";
+import { useEffect } from "react";
 
 const Hero = ({ href }) => {
+  useEffect(() => {
+    const preloadImg = new Image();
+    preloadImg.src = "/hero-img.webp";
+  }, []);
+
   return (
     <section className="bg-[url('/hero-img.webp')] bg-opacity-30 py-48 sm:py-16 lg:py-24 lg:h-[95vh] h-[100vh] bg-cover bg-center">
       <div className="px-4 mx-auto max-w-7xl mt-20 lg:mt-0 sm:px-6 lg:px-8">
