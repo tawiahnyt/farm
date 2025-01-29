@@ -14,14 +14,19 @@ const Hero = ({ href }) => {
   }, []);
 
   return (
-    <section
-      style={{
-        backgroundImage: imageLoaded ? "url('/hero-img.webp')" : "none",
-        transition: "background-image 0.5s ease-in-out", // Smooth transition when image loads
-      }}
-      className="bg-opacity-30 py-48 sm:py-16 lg:py-24 lg:h-[95vh] h-[100vh] bg-cover bg-center"
-    >
-      <div className="px-4 mx-auto max-w-7xl mt-20 lg:mt-0 sm:px-6 lg:px-8">
+    <section className="relative py-48 sm:py-16 lg:py-24 lg:h-[95vh] h-[100vh]">
+      <div className="absolute inset-0 w-full h-full">
+        <img
+          src="/hero-img.webp"
+          alt="Hero-Image"
+          className={`w-full h-full object-cover transition-opacity duration-500 ${
+            imageLoaded ? "opacity-100" : "opacity-0"
+          }`}
+          onLoad={() => setImageLoaded(true)} // Mark as loaded when image is loaded
+        />
+      </div>
+
+      <div className="relative z-10 px-4 mx-auto max-w-7xl mt-20 lg:mt-0 sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
             <h1 className="mt-2 text-4xl font-bold font-serif text-black lg:mt-32 lg:mb-20 sm:text-5xl xl:text-7xl">
