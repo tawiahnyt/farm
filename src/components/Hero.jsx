@@ -8,6 +8,7 @@ const Hero = ({ href }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
+    // Preload the image
     const preloadImg = new Image();
     preloadImg.src = "/hero-img.webp";
     preloadImg.onload = () => setImageLoaded(true);
@@ -15,6 +16,7 @@ const Hero = ({ href }) => {
 
   return (
     <section className="relative py-48 sm:py-16 lg:py-24 lg:h-[95vh] h-[100vh]">
+      {/* Image section */}
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/hero-img.webp"
@@ -26,6 +28,7 @@ const Hero = ({ href }) => {
         />
       </div>
 
+      {/* Content Section */}
       <div className="relative z-10 px-4 mx-auto max-w-7xl mt-20 lg:mt-0 sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
@@ -49,20 +52,11 @@ const Hero = ({ href }) => {
                 });
               }}
               className="inline-flex items-center px-8 py-4 mt-5 font-semibold transition-all duration-200 bg-darkGreen rounded-full lg:mt-8 hover:bg-normalGreen focus:bg-normalGreen text-white"
-              // role="button"
             >
               Find out more
               <FiArrowRightCircle className="text-xl ml-1" />
             </button>
           </div>
-
-          {/* <div>
-            <img
-              className="w-full opacity-70"
-              src="/public/vecteezy_heart-shape-made-of-different-fruits-and-vegetables-isolated_28615366.png"
-              alt=""
-            />
-          </div> */}
         </div>
       </div>
     </section>
