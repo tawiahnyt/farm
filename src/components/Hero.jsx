@@ -20,6 +20,7 @@ const Hero = ({ href }) => {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/hero-img.webp"
+          loading="lazy"
           alt="Hero-Image"
           className={`w-full h-full object-cover transition-opacity duration-500 ${
             imageLoaded ? "opacity-100" : "opacity-0"
