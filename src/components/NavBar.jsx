@@ -19,11 +19,7 @@ const NavBar = () => {
       <div className="px-4 mx-auto max-w-8xl sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between">
           <div className="flex-shrink-0">
-            <a
-              href="/"
-              title=""
-              className="flex outline-none "
-            >
+            <a href="/" title="" className="flex outline-none ">
               <img
                 className="w-auto h-8"
                 src="https://d33wubrfki0l68.cloudfront.net/682a555ec15382f2c6e7457ca1ef48d8dbb179ac/f8cd3/images/logo.svg"
@@ -31,6 +27,8 @@ const NavBar = () => {
               />
             </a>
           </div>
+
+          <h1 className="text-right justify-end items-end">ll</h1>
 
           <button
             type="button"
