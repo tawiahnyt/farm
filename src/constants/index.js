@@ -17,27 +17,37 @@ import herbImg from "../../src/assets/herbs-and-spice-img.webp";
 import seedlingImg from "../../src/assets/seedlings-img.webp";
 
 import redCabbageImg from "../assets/pictures/red-cabbage.webp";
-import cherryTomatoesImg from "../../src/assets/pictures/tomatoes.webp"
-import cayenneImg from "../../src/assets/pictures/cayenne-peppers.webp"
-import bellPepperImg from "../../src/assets/pictures/bell-peppers.webp"
-import okroImg from "../../src/assets/pictures/okra.webp"
-import gardenEggsImg from "../../src/assets/pictures/garden-eggs.webp"
-import maizeImg from "../../src/assets/pictures/corn.webp"
-import anisSeedsImg from "../../src/assets/pictures/anis-seeds.webp"
-import blackPepperImg from "../../src/assets/pictures/black-pepper.webp"
-import cinnamonImg from "../../src/assets/pictures/food.webp"
-import clovesImg from "../../src/assets/pictures/cloves.webp"
-import bayLeavesImg from "../../src/assets/pictures/bay-leaf.webp"
-import parsleyImg from "../../src/assets/pictures/parsley.webp"
-import dryOnionImg from "../../src/assets/pictures/dry-onion.webp"
-import garlicFlakesImg from "../../src/assets/pictures/garlic.webp"
-import dryGingerImg from "../../src/assets/pictures/dry-ginger.webp"
-import turmericImg from "../../src/assets/pictures/turmeric.webp"
-import cayennePepperImg from "../../src/assets/pictures/cayenne-peppers.webp"
-import waterMelonImg from "../../src/assets/pictures/water-melon.webp"
-import miracleBerryImg from "../../src/assets/pictures/miracle-berries.webp"
-import plantainImg from "../../src/assets/pictures/plantain.webp"
-import coconutImg from "../../src/assets/pictures/coconut.webp"
+import cherryTomatoesImg from "../../src/assets/pictures/tomatoes.webp";
+import cayenneImg from "../../src/assets/pictures/cayenne-peppers.webp";
+import bellPepperImg from "../../src/assets/pictures/bell-peppers.webp";
+import okroImg from "../../src/assets/pictures/okra.webp";
+import gardenEggsImg from "../../src/assets/pictures/garden-eggs.webp";
+import maizeImg from "../../src/assets/pictures/corn.webp";
+import anisSeedsImg from "../../src/assets/pictures/anis-seeds.webp";
+import blackPepperImg from "../../src/assets/pictures/black-pepper.webp";
+import cinnamonImg from "../../src/assets/pictures/food.webp";
+import clovesImg from "../../src/assets/pictures/cloves.webp";
+import bayLeavesImg from "../../src/assets/pictures/bay-leaf.webp";
+import parsleyImg from "../../src/assets/pictures/parsley.webp";
+import dryOnionImg from "../../src/assets/pictures/dry-onion.webp";
+import garlicFlakesImg from "../../src/assets/pictures/garlic.webp";
+import dryGingerImg from "../../src/assets/pictures/dry-ginger.webp";
+import turmericImg from "../../src/assets/pictures/turmeric.webp";
+import cayennePepperImg from "../../src/assets/pictures/cayenne-peppers.webp";
+import waterMelonImg from "../../src/assets/pictures/water-melon.webp";
+import miracleBerryImg from "../../src/assets/pictures/miracle-berries.webp";
+import plantainImg from "../../src/assets/pictures/plantain.webp";
+import coconutImg from "../../src/assets/pictures/coconut.webp";
+
+export const activityImg = [
+  "/1.jpg",
+  "/2.jpg",
+  "/3.jpg",
+  "/4.jpg",
+  "/5.jpg",
+  "/6.jpg",
+  "/7.jpg"
+];
 
 export const navLinks = [
   { title: "Home", url: "/" },
@@ -331,5 +341,3 @@ export const footerLinks = [
     ],
   },
 ];
-
-// export { heroImg, sectionImg, aboutUsImg };

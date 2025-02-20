@@ -5,6 +5,7 @@ import BrokenLines from "../components/BrokenLines";
 import OurValues from "../components/OurValues";
 
 import { motion } from "framer-motion";
+import Gallery from "../components/Gallery";
 
 const About = () => {
   return (
@@ -112,6 +113,16 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <div className="justify-center text-center items-center">
+        <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">
+          Gallery
+        </h1>
+
+        <BrokenLines />
+
+        <Gallery />
+      </div>
     </motion.div>
   );
 };
